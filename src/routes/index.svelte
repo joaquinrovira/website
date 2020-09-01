@@ -10,7 +10,7 @@
     Subheader,
     Text,
     PrimaryText,
-    SecondaryText
+    SecondaryText,
   } from "@smui/list";
   import MenuSurface from "@smui/menu-surface";
   import { fly } from "svelte/transition";
@@ -76,21 +76,15 @@
 </svelte:head>
 
 <h1 class="lighten" in:fly on:mouseover={rewave}>
-  Hi! I'm Ximo
-  <span class:wave>👋</span>
+  Hi! I'm Ximo <span class:wave>👋</span>
 </h1>
 <p>
-  <span class="lighten">
-    <b>I'm a Computer Science bachelor,</b>
-  </span>
-  currently pursuing a
-  <a
-    href="http://www.upv.es/titulaciones/MUIARFID/index-en.html"
+  <span class="lighten"> <b>I'm a Computer Science bachelor,</b> </span> currently
+  pursuing a <a
+    href="https://www.upv.es/titulaciones/MUCPD/index-en.html/"
     target="_blank">
-    Master's Degree in Artificial Intelligence
-  </a>
-  at the
-  <a href="http://www.upv.es/" target="_blank">
+    Master's Degree in Cloud and High Performance Computing
+  </a> at the <a href="https://www.upv.es/" target="_blank">
     Polythecnic University of Valencia.
   </a>
 </p>

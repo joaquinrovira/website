@@ -5,7 +5,7 @@
     Header,
     Title,
     Subtitle,
-    Scrim
+    Scrim,
   } from "@smui/drawer";
   import List, { Item, Text, Graphic, Separator, Subheader } from "@smui/list";
   import H6 from "@smui/common/H6.svelte";
@@ -26,9 +26,7 @@
   bind:this={drawer_this}
   bind:open={drawer}>
   <Header>
-    <Title>
-      <span class="code">Ximo Rovira</span>
-    </Title>
+    <Title><span class="code">Ximo Rovira</span></Title>
   </Header>
   <Content>
     <List>
@@ -39,13 +37,13 @@
         <Graphic class="material-icons" aria-hidden="true">home</Graphic>
         <Text>Home</Text>
       </Item>
-      <Item
+      <!-- <Item
         on:click={() => (drawer = !drawer)}
         href="/resume"
         activated={segment === 'resume'}>
         <Graphic class="material-icons" aria-hidden="true">description</Graphic>
         <Text>Resumé</Text>
-      </Item>
+      </Item> -->
       <!--<Item
         on:click={() => (drawer = !drawer)}
         href="blog"
