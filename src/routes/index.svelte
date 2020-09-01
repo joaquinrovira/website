@@ -80,9 +80,7 @@
 </h1>
 <p>
   <span class="lighten"> <b>I'm a Computer Science bachelor,</b> </span> currently
-  pursuing a <a
-    href="https://www.upv.es/titulaciones/MUCPD/index-en.html/"
-    target="_blank">
+  pursuing a <a href="https://www.upv.es/titulaciones/MUCPD/" target="_blank">
     Master's Degree in Cloud and High Performance Computing
   </a> at the <a href="https://www.upv.es/" target="_blank">
     Polythecnic University of Valencia.
