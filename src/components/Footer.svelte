@@ -49,13 +49,8 @@
   <hr />
   <div flex align-center>
     <p class="p2">
-      © 2020 Ximo Rovira. No cookies here
-      <a
-        href="https://tasty.co/recipe/the-best-chewy-chocolate-chip-cookies"
-        target="_blank"
-        class="p2 link cookie">
-        🍪
-      </a>
+      © 2020 Ximo Rovira. No cookies here <a href="https://tasty.co/recipe/the-best-chewy-chocolate-chip-cookies" target="_blank" class="p2
+          link cookie"> 🍪 </a>
     </p>
     <div flex-grow />
     <div class="socials">
@@ -75,17 +70,15 @@
   </div>
   <div flex align-center>
     <p class="p2">
-      Powered by
-      <a href="https://svelte.dev" target="_blank">Svelte</a>
-      ,
-      <a href="https://sapper.svelte.dev" target="_blank">Sapper</a>
-      &amp;
-      <a href="https://sveltematerialui.com/" target="_blank">
+      Powered by <a href="https://svelte.dev" target="_blank">Svelte</a> , <a
+        href="https://sapper.svelte.dev"
+        target="_blank">Sapper</a> &amp; <a
+        href="https://sveltematerialui.com/"
+        target="_blank">
         Svelte Material UI
-      </a>
-      . Hosted by
-      <a href="https://heroku.com" target="_blank">Heroku</a>
-      .
+      </a> . Hosted by <a
+        href="https://github.com/joaquinrovira/"
+        target="_blank">Me</a> .
     </p>
     <div flex-grow />
     <div

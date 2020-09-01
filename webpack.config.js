@@ -14,14 +14,15 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 const sassOptions = {
-  includePaths: [
-    './theme',
-    './node_modules',
-  ]
+	includePaths: [
+		'./theme',
+		'./node_modules',
+	]
 };
 
 module.exports = {
 	client: {
+		mode: 'production',
 		entry: config.client.entry(),
 		output: config.client.output(),
 		resolve: { alias, extensions, mainFields },
@@ -79,6 +80,7 @@ module.exports = {
 	},
 
 	server: {
+		mode: 'production',
 		entry: config.server.entry(),
 		output: config.server.output(),
 		target: 'node',
@@ -134,6 +136,7 @@ module.exports = {
 	},
 
 	serviceworker: {
+		mode: 'production',
 		entry: config.serviceworker.entry(),
 		output: config.serviceworker.output(),
 		mode: process.env.NODE_ENV
