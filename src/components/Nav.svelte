@@ -13,7 +13,7 @@
 
 <Drawer {segment} bind:drawer />
 <nav>
-  <TopAppBar collapsed={true}>
+  <TopAppBar variant="fixed" collapsed={true}>
     <Row>
       <Section>
         <IconButton class="material-icons" on:click={() => (drawer = !drawer)}>
